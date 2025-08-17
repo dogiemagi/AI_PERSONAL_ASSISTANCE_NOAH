@@ -1,3 +1,8 @@
+#pip install pyttsx3
+#pip install psutil
+#pip install SpeechRecognition
+#pip install opencv-python
+#pip install pyaudio
 import pyttsx3
 import psutil
 import datetime
@@ -262,4 +267,3 @@ if __name__ == "__main__":
             speak("you said me to remember that" +remember.read())
         elif 'offline' in query:
             quit()   
-
